@@ -1,0 +1,14 @@
+.title-label, .custom-label {
+  -fx-font-size:50px;
+  -fx-alignment:center;
+}
+
+.custom-label {
+   -fx-border-color:black;
+   -fx-min-width:130px;
+   -fx-min-height:130px;
+   -fx-background-insets: .55px;
+}
+.winner {
+-fx-text-fill: red;
+}

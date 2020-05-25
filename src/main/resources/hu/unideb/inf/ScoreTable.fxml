@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.ScoreTableController">
+    <children>
+        <TableView editable="true" prefHeight="350.0" prefWidth="600.0">
+            <columns>
+                <TableColumn prefWidth="80" text="Date" />
+                <TableColumn prefWidth="80" text="Time" />
+                <TableColumn prefWidth="130" text="Player name" />
+                <TableColumn prefWidth="220" text="Number of times player won" />
+            </columns>
+        </TableView>
+        <Button alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="258.0" layoutY="359.0" mnemonicParsing="false" onAction="#restart" text="Main Menu" textAlignment="CENTER" />
+    </children>
+</Pane>
+
